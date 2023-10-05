@@ -1,6 +1,5 @@
 #Herramientas-de-Desarrollo-en-Linux
 
-Este repositorio ofrece una introducción detallada a una variedad de herramientas clave utilizadas en el desarrollo y la administración de sistemas en el entorno Linux. Cubrimos herramientas como Git, Docker, Zsh, Maven y más. Esta guía está diseñada para ayudar a desarrolladores principiantes  a adquirir habilidades esenciales en un SO Linux.
 
 #Z shell, abreviada como zsh, es un potente intérprete de comandos para sistemas operativos de tipo Unix, como los sistemas BSD o GNU/Linux. Fue escrito por Paul Falstad en 1990 cuando era estudiante en la Universidad de Princeton.
 
