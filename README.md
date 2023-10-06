@@ -1,7 +1,4 @@
-#Herramientas-de-Desarrollo-en-Linux
-
-
-#Z shell, abreviada como zsh, es un potente intérprete de comandos para sistemas operativos de tipo Unix, como los sistemas BSD o GNU/Linux. Fue escrito por Paul Falstad en 1990 cuando era estudiante en la Universidad de Princeton.
+Z shell, abreviada como zsh, es un potente intérprete de comandos para sistemas operativos de tipo Unix, como los sistemas BSD o GNU/Linux. Fue escrito por Paul Falstad en 1990 cuando era estudiante en la Universidad de Princeton.
 
 Zsh se diseñó para ser utilizado de forma interactiva y ha incorporado muchas de las características principales de otras shells de Unix, como bash, ksh y tcsh, además de tener características propias, que incluyen:
 
@@ -13,10 +10,10 @@ Edición de comandos multilínea en una sola memoria intermedia.
 Corrección ortográfica y relleno automático de los nombres de los comandos (y opcionalmente de los argumentos, que se asumen como nombres de archivo).
 Varios modos de compatibilidad, por ejemplo, Zsh puede fingir ser una Bourne Shell cuando se ejecuta como /bin/sh.
 
-#¿Qué es Git?
+¿Qué es Git?
 Git es un software de control de versiones diseñado por Linus Torvalds. Fue creado pensando en la eficiencia, la confiabilidad y la compatibilidad del mantenimiento de versiones de aplicaciones que tienen un gran número de archivos de código fuente. Su propósito principal es llevar un registro de los cambios en archivos de computadora, incluyendo coordinar el trabajo que varias personas realizan sobre archivos compartidos en un repositorio de código.
 
-#¿Qué es OhMyZsh?
+¿Qué es OhMyZsh?
 Oh My Zsh es una herramienta muy útil que se puede utilizar en el terminal de Windows cuando se ejecuta una distribución de Linux bajo WSL (Windows Subsystem for Linux). Puede instalarse mediante comandos como wsl -l -v y git --version. Oh My Zsh mejora la experiencia del usuario en el terminal y ofrece una variedad de temas y complementos para personalizarlo.
 
 Para instalar Oh My Zsh en una distribución de Linux bajo WSL, puedes seguir estos pasos:
@@ -29,40 +26,40 @@ Pero si algo tiene Oh My ZSH, es la personalización, para ello solo tendremos q
 nano ~/.zshrc
 Uno de los temas más famosos sin lugar a dudas es "agnoster" y es que este tema nos permite ver muy fácilmente la rama en la que estamos trabajando, si tenemos un cambio pendiente 
 
-#¿Qué es Docker?
+¿Qué es Docker?
 Docker es una plataforma de código abierto que permite a los desarrolladores crear, implementar, ejecutar, actualizar y gestionar contenedores. Estos contenedores son componentes estandarizados y ejecutables que combinan el código fuente de la aplicación con las bibliotecas y dependencias del sistema operativo necesarias para ejecutar esa aplicación en cualquier entorno.
 
-#¿Qué es Docker Compose?
+¿Qué es Docker Compose?
 Docker Compose es una herramienta para definir y ejecutar aplicaciones de Docker que consisten en varios contenedores. Utiliza un archivo YAML para configurar los servicios de la aplicación y permite crear e iniciar todos los servicios con un solo comando. Es útil para administrar aplicaciones complejas que constan de varios contenedores interconectados.
 
-#SDKMAN! es una herramienta que se utiliza para gestionar múltiples versiones de SDKs en sistemas Unix. Proporciona una interfaz de línea de comandos y un API para instalar, cambiar, eliminar y listar candidatos. Es especialmente útil para el desarrollo de aplicaciones que requieren versiones específicas de lenguajes o herramientas, como Java o Groovy.
+SDKMAN! es una herramienta que se utiliza para gestionar múltiples versiones de SDKs en sistemas Unix. Proporciona una interfaz de línea de comandos y un API para instalar, cambiar, eliminar y listar candidatos. Es especialmente útil para el desarrollo de aplicaciones que requieren versiones específicas de lenguajes o herramientas, como Java o Groovy.
 
 Para instalar SDKMAN!:
 
 curl -s "https://get.sdkman.io" | bash
 Luego, puedes usarlo para instalar SDKs y gestionar versiones según tus necesidades.
 
-#Java 8 y Java 11
+Java 8 y Java 11
 Java 8 es la versión más reciente de Java que incluye nuevas características, mejoras y correcciones de errores para mejorar la eficacia en el desarrollo y la ejecución de programas Java. Java 11, por otro lado, es la primera versión LTS (soporte a largo plazo) oficial de Java.
 Java 17 es la última versión de soporte a largo plazo (LTS, por sus siglas en inglés) dentro de la cadencia de lanzamiento semestral de Java y es el resultado de una amplia colaboración entre los ingenieros de Oracle y otros miembros de la comunidad global de desarrolladores.
 
-#¿Qué es Maven?
+¿Qué es Maven?
 Maven es una herramienta de software utilizada para la gestión y construcción de proyectos Java. Utiliza un Project Object Model (POM) para describir el proyecto de software, sus dependencias y el orden de construcción de los elementos. Maven simplifica tareas como la compilación, el empaquetado y la gestión de dependencias en proyectos Java.
 
-#Eclipse es una plataforma de software de código abierto que se utiliza para desarrollar aplicaciones "de Cliente Enriquecido". Ofrece un entorno de desarrollo integrado (IDE) para escribir, compilar y depurar código en varios lenguajes de programación, incluido Java.
+Eclipse es una plataforma de software de código abierto que se utiliza para desarrollar aplicaciones "de Cliente Enriquecido". Ofrece un entorno de desarrollo integrado (IDE) para escribir, compilar y depurar código en varios lenguajes de programación, incluido Java.
 
-#Visual Studio Code (VS Code) es un editor de código fuente independiente desarrollado por Microsoft. Es multiplataforma y admite una amplia variedad de lenguajes de programación. VS Code se integra bien con Git, ofrece funciones de depuración y se puede personalizar con extensiones.
+Visual Studio Code (VS Code) es un editor de código fuente independiente desarrollado por Microsoft. Es multiplataforma y admite una amplia variedad de lenguajes de programación. VS Code se integra bien con Git, ofrece funciones de depuración y se puede personalizar con extensiones.
 
-#NVM (Node Version Manager) y Node.js
+NVM (Node Version Manager) y Node.js
 NVM, o Node Version Manager, es un script utilizado para administrar múltiples versiones de Node.js en sistemas Unix.
 
-#Node.js Es un entorno de tiempo de ejecución de JavaScript que permite ejecutar código JavaScript en el servidor. Con NVM, puedes cambiar y gestionar fácilmente las versiones de Node.js según tus necesidades.
+Node.js Es un entorno de tiempo de ejecución de JavaScript que permite ejecutar código JavaScript en el servidor. Con NVM, puedes cambiar y gestionar fácilmente las versiones de Node.js según tus necesidades.
 
-#NPM Es un gestor de paquetes para proyectos de Node.js. Permite instalar, actualizar y administrar las dependencias de un proyecto Node.js de manera eficiente. npm es ampliamente utilizado en el ecosistema de desarrollo de Node.js.
+NPM Es un gestor de paquetes para proyectos de Node.js. Permite instalar, actualizar y administrar las dependencias de un proyecto Node.js de manera eficiente. npm es ampliamente utilizado en el ecosistema de desarrollo de Node.js.
 
-#Vue.js, pronunciado "view," es un framework progresivo para construir interfaces de usuario. A diferencia de otros frameworks monolíticos, Vue.js se puede utilizar incrementalmente y es fácil de integrar con otros proyectos. Es especialmente adecuado para la construcción de aplicaciones de una sola página (SPA).
+Vue.js, pronunciado "view," es un framework progresivo para construir interfaces de usuario. A diferencia de otros frameworks monolíticos, Vue.js se puede utilizar incrementalmente y es fácil de integrar con otros proyectos. Es especialmente adecuado para la construcción de aplicaciones de una sola página (SPA).
 
-#Postman es una aplicación que se utiliza para probar colecciones o catálogos de APIs, organizar servicios web en carpetas, generar documentación de APIs y trabajar con entornos de desarrollo. Es una herramienta útil para los desarrolladores que trabajan con APIs RESTful.
+Postman es una aplicación que se utiliza para probar colecciones o catálogos de APIs, organizar servicios web en carpetas, generar documentación de APIs y trabajar con entornos de desarrollo. Es una herramienta útil para los desarrolladores que trabajan con APIs RESTful.
 
 Para qué sirve Postman
 Postman sirve para múltiples tareas dentro de las cuales destacaremos en esta oportunidad las siguientes:
@@ -82,7 +79,7 @@ PATCH: Actualizar alguna información
 DELETE: Borrar información
 En cuanto a los posibles errores que podemos apreciar en la respuesta que nos ofrece la herramienta, lo resumiremos en que si la respuesta dada se encuentra en el rango de “200” quiere decir que toda la petición ha salido sin inconvenientes; mientras que el rango de los códigos de error “400” hacen referencia a errores con el cliente y aquellos errores en la línea de los “500” tienen que ver con fallos en el servidor.
 
-#Utilerias Linux
+Utilerias Linux
 Telnet y Curl
 Telnet es un protocolo que permite conectarse a otros sistemas a través de la red y acceder a ellos de forma remota. Puede ser útil para administrar sistemas de forma remota, aunque es menos seguro que otras opciones como SSH.
 
@@ -97,7 +94,7 @@ Awk es un lenguaje de programación diseñado para el procesamiento de texto. Se
 
 Estos son algunos de los comandos y herramientas que se utilizan en sistemas Unix y Linux para realizar tareas comunes de administración y desarrollo. Puedes explorar y aprender más sobre cada uno de ellos según tus necesidades específicas.
 
-#MySQL Workbench: Es una herramienta de administración y desarrollo de bases de datos relacionales MySQL. Está diseñada para facilitar la creación, diseño, mantenimiento y administración de bases de datos MySQL. Es una aplicación gráfica que proporciona una interfaz de usuario intuitiva y rica en características para interactuar con bases de datos MySQL.
+MySQL Workbench: Es una herramienta de administración y desarrollo de bases de datos relacionales MySQL. Está diseñada para facilitar la creación, diseño, mantenimiento y administración de bases de datos MySQL. Es una aplicación gráfica que proporciona una interfaz de usuario intuitiva y rica en características para interactuar con bases de datos MySQL.
 
 Algunas de las principales características y funciones de MySQL Workbench son las siguientes:
 
