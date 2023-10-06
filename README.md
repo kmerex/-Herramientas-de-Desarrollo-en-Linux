@@ -1,3 +1,6 @@
+
+Herramientas-de-Desarrollo-en-Linux
+
 Z shell, abreviada como zsh, es un potente intérprete de comandos para sistemas operativos de tipo Unix, como los sistemas BSD o GNU/Linux. Fue escrito por Paul Falstad en 1990 cuando era estudiante en la Universidad de Princeton.
 Zsh se diseñó para ser utilizado de forma interactiva y ha incorporado muchas de las características principales de otras shells de Unix, como bash, ksh y tcsh, además de tener características propias, que incluyen:
 
